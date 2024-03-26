@@ -28,6 +28,7 @@
   padding: 0px 30px 10px 30px;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 99;
+  text-wrap: nowrap;
 
  
  }
@@ -132,10 +133,7 @@
 
  main .media-icons a {
   color: white;
-  font-size: 20px;
-  border: 2px solid white;
-  padding: 10px 9px;
-  border-radius: 30px;
+  font-size: 27px;
   transition: transform  0.3s;
   display: flex;
   text-decoration: none;
@@ -143,21 +141,13 @@
   align-items: center;
  }
 
+ main .media-icons a:nth-child(2){
+  margin: 0 40px;
+ }
+
  main .media-icons a:hover {
   transform: translateY(-5px);
   /*transform: scale(1.2)*/
- }
-
- main .media-icons a:not(:last-child) {
-  margin-right: 90px;
- }
-
- main .media-icons a:nth-child(1) {
-  padding: 10px 13px;
- }
-
- main .media-icons a:nth-child(3) {
-  padding: 10px 10px;
  }
 
  #check {
@@ -169,7 +159,7 @@
   display: none;
  }
 
- @media (max-width: 890px) {
+ @media (max-width: 720px) {
   
   label {
     display: block;

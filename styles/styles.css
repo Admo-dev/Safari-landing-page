@@ -5,6 +5,11 @@
   font-family: 'Nunito', sans-serif;
  }
 
+ html{
+   height: 100%;
+   width:100%;
+ }
+
  body {
   background-image: url(beautiful-sunset-fields-mountains flip.jpg);
   background-position: center;

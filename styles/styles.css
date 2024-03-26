@@ -5,8 +5,7 @@
   font-family: 'Nunito', sans-serif;
  }
 
- section {
-  min-height: 100svh;
+ body {
   background-image: url(beautiful-sunset-fields-mountains\ flip.jpg);
   background-position: center;
   background-size: cover;
